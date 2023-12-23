@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.anadiv{
+    background: rgb(202, 38, 38);
+}
+
+/* NAVBAR START */
+
+.anadiv .navbar{
+    display: flex;
+    justify-content: space-between;
+    background: blueviolet;
+}
+
+/* LOGO START */
+
+.anadiv .navbar .logo{
+    font-size: 14px;
+    font-family: pacifico;
+    color: #fff;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+.anadiv .navbar .logo h1{
+    letter-spacing: 3px;
+}
+
+
+.anadiv .navbar .logo h2{
+    margin-left: 45px;
+}
+
+/* LOGO FİNİSH */
+
+/* ÜST MENÜ START*/
+
+.anadiv .navbar .ust-menu{
+    margin-top: 50px;
+    margin-right: 100px;
+}
+.anadiv .navbar .ust-menu .menu{
+    font-size: 30px;
+    text-decoration: none;
+    color: #fff;
+    font-family: oswald;
+    margin-left: 30px;
+}
+
+.anadiv .navbar .ust-menu a:hover{
+    color: black;
+    transition: 0.5s;
+}
+
+.anadiv .navbar .ust-menu .active{
+    font-size: 30px;
+    text-decoration: none;
+    font-family: oswald;
+    color: black;
+}
+
+
+
+/* ÜST MENÜ FİNİSH */
+
+/* NAVBAR FİNİSH */
+
+/* CENTER START */
+
+.anadiv .center .menu-fiyat-baslik{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.anadiv .center .menu-fiyat-baslik h2{
+    font-size: 40px;
+    color: #fff;
+    font-family: caveat;
+}
+
+.anadiv .center .basliklar-1{
+    display: flex;
+    margin-left: 400px;
+    margin-top: 40px;
+}
+
+.anadiv .center h3{
+    color: black;
+    font-family: acme;
+    font-size: 25px;
+}
+
+.anadiv .center .basliklar-1 .durum-fiyat-baslik{
+    margin-left: 500px;
+}
+
+.anadiv .center ul{
+    list-style: none;
+}
+
+.anadiv .center a{
+    color: #fff;
+    font-size: 22px;
+}
+
+
+.anadiv .center .icerikler-1{
+    display: flex;
+    margin-left: 400px;
+    margin-top: 40px;
+}
+
+.anadiv .center .doritos{
+    color: black;
+}
+
+.anadiv .center .icerikler-1 .durum-fiyat-icerik{
+    margin-left: 350px;
+}
+
+.anadiv .center .basliklar-2{
+    display: flex;
+    margin-left: 400px;
+    margin-top: 40px;
+}
+
+.anadiv .center .basliklar-2 .porsiyonlar-fiyat-baslik{
+    margin-left: 485px;
+}
+
+.anadiv .center .icerikler-2{
+    display: flex;
+    margin-left: 400px;
+    margin-top: 40px;
+}
+
+.anadiv .center .icerikler-2 .porsiyonlar-fiyat-icerik{
+    margin-left: 440px;
+}
+
+.anadiv .center .basliklar-3{
+    display: flex;
+    margin-left: 400px;
+    margin-top: 40px;
+}
+
+.anadiv .center .basliklar-3 .tostlar-fiyat-baslik{
+    margin-left: 550px;
+}
+
+.anadiv .center .icerikler-3{
+    display: flex;
+    margin-left: 400px;
+    margin-top: 40px;
+}
+
+.anadiv .center .tostlar-fiyat-icerik{
+    margin-left: 550px;
+}
+
+.anadiv .center .basliklar-4{
+    display: flex;
+    margin-left: 400px;
+    margin-top: 40px;
+}
+
+.anadiv .center .basliklar-4 .pilavlar-fiyat-baslik{
+    margin-left: 550px;
+}
+
+.anadiv .center .icerikler-4{
+    display: flex;
+    margin-left: 400px;
+    margin-top: 40px;
+}
+
+.anadiv .center .pilavlar-fiyat-icerik{
+    margin-left: 400px;
+}
+
+.anadiv .center .basliklar-5{
+    display: flex;
+    margin-left: 400px;
+    margin-top: 40px;
+}
+
+.anadiv .center .basliklar-5 .icecekler-fiyat-baslik{
+    margin-left: 550px;
+}
+
+.anadiv .center .icerikler-5{
+    display: flex;
+    margin-left: 400px;
+    margin-top: 40px;
+}
+
+.anadiv .center .icecekler-fiyat-icerik{
+    margin-left: 450px;
+}
+
+/* CENTER FİNİH */
